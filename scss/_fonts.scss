@@ -1,0 +1,179 @@
+/* Font sizes */
+.h1 {
+    font-size: 5.14625rem; // 82.34px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(md) {
+        font-size: 3rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 2rem;
+    }
+}
+
+.h2 {
+    font-size: 4.104375rem; // 65.67px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(lg) {
+        font-size: 3rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 2rem;
+    }
+}
+
+.h3 {
+    font-size: 2.668125rem; // 42.69px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(md) {
+        font-size: 2rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+    }
+}
+
+.h4 {
+    font-size: 2.52rem; // 40.32px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+    }
+}
+
+.h5 {
+    font-size: 1.875rem; // 30px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h6 {
+    font-size: 1.6875rem; // 27px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h7 {
+    font-size: 1.5625rem; // 25px
+    margin-bottom: 0;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h8 {
+    font-size: 1.5rem; // 24px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h9 {
+    font-size: 1.25rem; // 20px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h10 {
+    font-size: 1.125rem; // 18px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.h11 {
+    font-size: 1.0625rem; // 17px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h12 {
+    font-size: 1rem; // 16px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+
+.h13 {
+    font-size: 0.875rem; // 14px
+}
+
+.h14 {
+    font-size: 0.85375rem; // 13.66px
+}
+
+.h15 {
+    font-size: 0.75rem; // 12px
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+$font-helvetica: "Helvetica Neue", sans-serif;
+$font-roboto: "Roboto", sans-serif;
+$font-articulat: "Articulat", "sans-serif";
+
+$font-body: $font-articulat;
+
+$font-families: (
+    "helvetica": "Helvetica Neue",
+    "roboto": "Roboto",
+    "articulat": "Articulat",
+);
+
+@each $name, $font-family in $font-families {
+    .font-#{$name} {
+        font-family: $font-family, sans-serif;
+    }
+}
+
+$asset-path: "../webfonts/";
+
+/* Fonts includer */
+@mixin font-face($font-family, $font-file, $weight: "normal", $style: "normal") {
+    @font-face {
+        font-family: $font-family;
+        src: local($font-file), url($asset-path + $font-file + ".woff") format("woff"),
+            url($asset-path + $font-file + ".woff2") format("woff2");
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+@include font-face("Helvetica Neue", "helveticaneue-ultralight", 300);
+@include font-face("Helvetica Neue", "helveticaneue-thin", 400);
+@include font-face("Helvetica Neue", "helveticaneue-light", 500);
+@include font-face("Helvetica Neue", "helveticaneue", 600);
+@include font-face("Helvetica Neue", "helveticaneue-medium", 700);
+@include font-face("Helvetica Neue", "helveticaneue-bold", 800);
+@include font-face("Articulat", "ArticulatCF-Regular", 400);
+@include font-face("Articulat", "ArticulatCF-Medium", 600);
+@include font-face("Articulat", "ArticulatCF-DemiBold", 700);
+@include font-face("Articulat", "ArticulatCF-Bold", 800);
+
+$font-weights: 300, 400, 500, 600, 700, 800, 900;
+
+@each $fw in $font-weights {
+    .fw-#{$fw} {
+        font-weight: $fw;
+    }
+}
