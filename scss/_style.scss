@@ -1,3 +1,83 @@
 @function imgUrl($file, $path: "background") {
     @return url("../images/" + $path + "/" + $file) no-repeat;
 }
+
+header {
+    .header-top-bar {
+        .btn {
+            height: 58px;
+            display: flex;
+            align-items: center;
+            color: $white;
+            border-radius: 0;
+            line-height: 1;
+            font-size: 1.125rem;
+
+            @include media-breakpoint-down(sm) {
+                font-size: 0.875rem;
+            }
+        }
+    }
+
+    .banner {
+        padding-top: 16px;
+
+        .banner-content {
+            background: imgUrl("banner.jpg");
+            overflow: hidden;
+
+            .description {
+                padding: 66px 53px;
+            }
+        }
+
+        form {
+            font-family: $font-roboto;
+
+            input,
+            select {
+                color: $grey;
+                min-height: 70px;
+                background: #f3f3f3;
+    
+                @include media-breakpoint-up(md) {
+                    padding: 23px 17px;
+                }
+    
+                &:focus,
+                &:active {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+    
+            input::placeholder,
+            select {
+                color: $grey;
+                font-size: 1rem;
+    
+                @include media-breakpoint-down(sm) {
+                    font-size: 0.875rem;
+                }
+            }
+    
+            button {
+                min-height: 70px;
+            }
+        }
+
+        .experience-banner {
+            background: $primary imgUrl("experience-banner.png") right top;
+            background-size: contain;
+            border-radius: 7px;
+            color: $white;
+            font-family: $font-helvetica;
+            padding: 25px 32px;
+            margin-top: 30px;
+        }
+    }
+}
+
+section.services {
+    padding: 64px 0;
+}

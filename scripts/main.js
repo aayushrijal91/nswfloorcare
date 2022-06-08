@@ -10,6 +10,8 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
     });
 });
 
+AOS.refresh();
+
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {
         $('#return-to-top').fadeIn(300);

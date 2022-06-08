@@ -7,6 +7,11 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    color: $dark;
+}
+
+.bordered {
+    border: 2px solid $secondary;
 }
 
 .btn:focus {
