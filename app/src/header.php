@@ -81,15 +81,18 @@
 			<div class="container-fluid">
 				<div class="row justify-content-end">
 					<div class="col-12 col-xxl-11 pr-lg-5">
-						<div class="row no-gutters justify-content-center justify-content-lg-between align-items-center">
+						<div class="row no-gutters justify-content-center justify-content-md-between align-items-center">
 							<div class="col-auto">
 								<a href="./">
 									<?= renderImg("logo.png", "logo") ?>
 								</a>
 							</div>
-							<div class="col-auto">
+							<div class="col-5 letter-spacing-01 h9 px-lg-6 text-capitalize text-center py-4 py-md-0 d-none d-md-block d-lg-none">
+										<span class="fw-700">With over 20 Years of Experience</span> in The industry
+									</div>
+							<div class="col-auto col-md-12 col-lg-auto pt-md-4 pt-lg-0">
 								<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center">
-									<div class="col-auto letter-spacing-01 h9 px-lg-6 text-capitalize text-center py-4 py-md-0">
+									<div class="col-auto letter-spacing-01 h9 px-lg-6 text-capitalize text-center py-4 py-md-0 d-md-none d-lg-block">
 										<span class="fw-700">With over 20 Years of Experience</span> in The industry
 									</div>
 									<div class="col-6 col-md-auto px-1">
@@ -117,7 +120,7 @@
 			<div class="container-fluid">
 				<div class="row px-lg-5">
 					<div class="col-lg-8 banner-content">
-						<div class="row no-gutters align-items-end h-100">
+						<div class="row no-gutters align-items-end h-100 justify-content-md-center">
 							<div class="col-lg-8 pr-xxl-5">
 								<div class="description">
 									<div class="text-white h10 font-helvetica fw-600">The Best Branded Products On Your Surfaces</div>
@@ -148,7 +151,6 @@
 								</div>
 							</div>
 							<div class="col-md-4">
-								
 								<div data-aos="slide-up"><?= renderImg("broom.png", "lib") ?></div>
 							</div>
 						</div>

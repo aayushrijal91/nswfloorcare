@@ -1,21 +1,21 @@
 <footer>
 	<div class="section-footer-top">
 		<div class="container">
-			<div class="row justify-content-center justify-content-lg-between align-items-center">
-				<div class="col-auto pb-2 pb-md-0">
+			<div class="row justify-content-center justify-content-md-between align-items-center">
+				<div class="col-auto col-md-4 col-lg-auto pb-2 pb-md-0">
 					<div class="row no-gutters text-white justify-content-center align-items-center">
 						<div class="col-5 col-md-auto px-md-2">
 							<a href="#form" class="btn btn-block btn-primary rounded-pill">Get Started</a>
 						</div>
-						<div class="col col-md-auto pl-3 pr-2 px-md-4 fw-500 h10">Let our professional team help you</div>
+						<div class="col col-md-auto pl-3 pr-2 px-md-4 fw-500 h10 text-center line-height-1 pt-md-4 pt-lg-0">Let our professional team help you</div>
 					</div>
 				</div>
-				<div class="col-auto pt-2 pt-md-0">
+				<div class="col-auto col-md-4 col-lg-auto pt-2 pt-md-0">
 					<div class="row no-gutters text-white justify-content-center align-items-center">
 						<div class="col-5 col-md-auto px-md-2">
 							<a href="tel: <?= $phone_number ?>" class="btn btn-block btn-primary rounded-pill">Call Now</a>
 						</div>
-						<div class="col col-md-auto pl-3 pr-2 px-md-4 fw-500 h10">Quality services with affordable prices</div>
+						<div class="col col-md-auto pl-3 pr-2 px-md-4 fw-500 h10 text-center line-height-1 pt-md-4 pt-lg-0">Quality services with affordable prices</div>
 					</div>
 				</div>
 			</div>
@@ -34,12 +34,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-auto">
+				<div class="col-auto pt-md-4 pt-lg-0">
 					<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
 						<div class="col-auto">Terms &amp; Conditions</div>
 						<div class="col-auto px-2 px-md-4 px-xl-6 text-primary">|</div>
 						<div class="col-auto">Privacy Policies</div>
-						<div class="col-auto pl-lg-5 pl-xl-7 pt-4 pt-md-0"><?= renderImg("payment-methods.png","icons") ?></div>
+						<div class="col-auto pl-md-5 pl-xl-7 pt-4 pt-md-0"><?= renderImg("payment-methods.png","icons") ?></div>
 						<!-- <div class="col-auto pl-lg-5">
 							<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 								<?= renderImg("aiims1.png", "logo") ?>

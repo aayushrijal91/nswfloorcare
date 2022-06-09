@@ -36,7 +36,7 @@ header {
                 }
             }
 
-            @include media-breakpoint-down(sm) {
+            @include media-breakpoint-down(md) {
                 background-size: cover;
             }
         }
@@ -152,7 +152,7 @@ section.services {
 section.brands {
     padding: 48px 0;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         padding: 28px 0;
     }
 }
@@ -163,8 +163,13 @@ section.quick-contact {
 
     @include media-breakpoint-up(md) {
         background: $primary imgUrl("quick-contact.png") right top;
-        background-size: contain;
+        background-size: cover;
+        padding: 80px 0;
+    }
+
+    @include media-breakpoint-up(lg) {
         padding: 125px 0 158px;
+        background-size: contain;
     }
 
     .btn {
