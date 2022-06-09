@@ -80,19 +80,19 @@
 		<div class="header-top-bar">
 			<div class="container-fluid">
 				<div class="row justify-content-end">
-					<div class="col-12 col-xxl-11 pr-lg-5">
+					<div class="col-12 col-xxl-11 pr-xl-5">
 						<div class="row no-gutters justify-content-center justify-content-md-between align-items-center">
 							<div class="col-auto">
 								<a href="./">
 									<?= renderImg("logo.png", "logo") ?>
 								</a>
 							</div>
-							<div class="col-5 letter-spacing-01 h9 px-lg-6 text-capitalize text-center py-4 py-md-0 d-none d-md-block d-lg-none">
-										<span class="fw-700">With over 20 Years of Experience</span> in The industry
-									</div>
-							<div class="col-auto col-md-12 col-lg-auto pt-md-4 pt-lg-0">
-								<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center">
-									<div class="col-auto letter-spacing-01 h9 px-lg-6 text-capitalize text-center py-4 py-md-0 d-md-none d-lg-block">
+							<div class="col-5 col-lg-6 letter-spacing-01 h9 px-lg-6 text-capitalize text-center py-4 py-md-0 d-none d-md-block d-lg-none">
+								<span class="fw-700">With over 20 Years of Experience</span> in The industry
+							</div>
+							<div class="col-auto col-md-12 col-lg-auto pt-md-4 pt-xl-0">
+								<div class="row justify-content-center justify-content-xl-end no-gutters align-items-center">
+									<div class="col-auto letter-spacing-01 h9 px-lg-6 text-capitalize text-center py-4 py-md-0 d-md-none d-xl-block">
 										<span class="fw-700">With over 20 Years of Experience</span> in The industry
 									</div>
 									<div class="col-6 col-md-auto px-1">
@@ -118,8 +118,8 @@
 		</div>
 		<div class="banner">
 			<div class="container-fluid">
-				<div class="row px-xxl-5">
-					<div class="col-lg-8 banner-content">
+				<div class="row px-xxl-5 justify-content-lg-center">
+					<div class="col-xl-8 banner-content">
 						<div class="row no-gutters align-items-end h-100 justify-content-md-center">
 							<div class="col-lg-8 pr-xxl-5">
 								<div class="description">
@@ -155,7 +155,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 pl-xxl-5 py-5 py-lg-3">
+					<div class="col-lg-7 col-xl-4 pl-xxl-5 py-5 py-xl-3">
 						<div class="letter-spacing-01 text-primary h4 line-height-1 text-center">NSW Floor Care <span class="fw-700">Provides Specialised Cleaning &amp; Sealing</span></div>
 						<div class="text-center h11 py-3">Simply fill in our form &amp; we'll get back to you as soon as possible</div>
 						<form action="./src/form" method="POST">

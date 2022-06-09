@@ -2,20 +2,20 @@
 	<div class="section-footer-top">
 		<div class="container">
 			<div class="row justify-content-center justify-content-md-between align-items-center">
-				<div class="col-auto col-md-4 col-lg-auto pb-2 pb-md-0">
+				<div class="col-auto col-md-4 col-lg-6 col-xl-auto pb-2 pb-md-0">
 					<div class="row no-gutters text-white justify-content-center align-items-center">
 						<div class="col-5 col-md-auto px-md-2">
 							<a href="#form" class="btn btn-block btn-primary rounded-pill">Get Started</a>
 						</div>
-						<div class="col col-md-auto pl-3 pr-2 px-md-4 fw-500 h10 text-center line-height-1 pt-md-4 pt-lg-0">Let our professional team help you</div>
+						<div class="col col-md-auto col-lg col-xl-auto pl-3 pr-2 px-md-4 fw-500 h10 text-center line-height-1 pt-md-4 pt-lg-0">Let our professional team help you</div>
 					</div>
 				</div>
-				<div class="col-auto col-md-4 col-lg-auto pt-2 pt-md-0">
+				<div class="col-auto col-md-4 col-lg-6 col-xl-auto pt-2 pt-md-0">
 					<div class="row no-gutters text-white justify-content-center align-items-center">
 						<div class="col-5 col-md-auto px-md-2">
 							<a href="tel: <?= $phone_number ?>" class="btn btn-block btn-primary rounded-pill">Call Now</a>
 						</div>
-						<div class="col col-md-auto pl-3 pr-2 px-md-4 fw-500 h10 text-center line-height-1 pt-md-4 pt-lg-0">Quality services with affordable prices</div>
+						<div class="col col-md-auto col-lg col-xl-auto pl-3 pr-2 px-md-4 fw-500 h10 text-center line-height-1 pt-md-4 pt-lg-0">Quality services with affordable prices</div>
 					</div>
 				</div>
 			</div>

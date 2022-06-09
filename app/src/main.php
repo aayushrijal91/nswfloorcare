@@ -9,12 +9,12 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-xxl-11">
                 <div class="row no-gutters justify-content-between align-items-center pb-2">
-                    <div class="col-12 col-md-7 col-lg-auto px-2">
+                    <div class="col-12 col-md-7 col-xl-auto px-2">
                         <div class="text-secondary font-helvetica fw-800 h3">We Ensure Great Results Every Time.</div>
                         <div class="h14 fw-400">With all the best and latest equipment we can ensure you will always be
                             happy with the results!</div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-3 px-2 pt-4 pt-md-0">
+                    <div class="col-12 col-md-4 col-xl-3 px-2 pt-4 pt-md-0">
                         <a href="#form" class="btn btn-block btn-secondary rounded-0 text-white py-2 py-md-3 py-lg-4 fw-700">
                             Get Started With Us Today
                         </a>
@@ -149,10 +149,10 @@ include __DIR__ . '/header.php';
                     </div>
                     <div class="col-lg-auto">
                         <div class="row no-gutters align-items-center">
-                            <div class="col-6 col-md col-lg-auto px-4 py-2 py-md-0 text-center"><?= renderImg("klindex.png", "logo", "px-2") ?></div>
-                            <div class="col-6 col-md col-lg-auto px-4 py-2 py-md-0 text-center"><?= renderImg("spirit.png", "logo", "px-2") ?></div>
-                            <div class="col-6 col-md col-lg-auto px-4 py-2 py-md-0 text-center"><?= renderImg("master.png", "logo", "px-2") ?></div>
-                            <div class="col-6 col-md col-lg-auto px-4 py-2 py-md-0 text-center"><?= renderImg("whyte.png", "logo", "px-2") ?></div>
+                            <div class="col-6 col-md col-lg-auto px-4 px-lg-2 px-xl-4 py-2 py-md-0 text-center"><?= renderImg("klindex.png", "logo", "px-2") ?></div>
+                            <div class="col-6 col-md col-lg-auto px-4 px-lg-2 px-xl-4 py-2 py-md-0 text-center"><?= renderImg("spirit.png", "logo", "px-2") ?></div>
+                            <div class="col-6 col-md col-lg-auto px-4 px-lg-2 px-xl-4 py-2 py-md-0 text-center"><?= renderImg("master.png", "logo", "px-2") ?></div>
+                            <div class="col-6 col-md col-lg-auto px-4 px-lg-2 px-xl-4 py-2 py-md-0 text-center"><?= renderImg("whyte.png", "logo", "px-2") ?></div>
                         </div>
                     </div>
                 </div>
@@ -166,10 +166,10 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-xl-11">
                 <div class="row no-gutters justify-content-between align-items-end">
-                    <div class="col-lg-5">
+                    <div class="col-lg-6 col-xl-5">
                         <div class="h1 fw-700 text-white letter-spacing-n04 line-height-3">No Job Too Big Or Too Small<span class="text-secondary">.</span></div>
                     </div>
-                    <div class="col-lg-5 col-xxl-4 pt-4 pt-md-5 pt-lg-0">
+                    <div class="col-lg-6 col-xl-5 col-xxl-4 pt-4 pt-md-5 pt-lg-0">
                         <div class="text-white letter-spacing-n02 fw-500 h5 line-height-1"><span class="fw-700">At NSW Floor Care</span> we service residential, commercial and all strata.</div>
                         <div class="row no-gutters pt-3 pt-md-4">
                             <div class="col-5 col-md-4 col-lg-5 pr-2">
