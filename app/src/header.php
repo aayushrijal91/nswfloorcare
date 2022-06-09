@@ -5,12 +5,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="icon" href="./assets/images/favicon.png" type="image/png">
+	<link rel="icon" href="./assets/images/favicon.jpg" type="image/jpg">
 	<title><?= $site ?></title>
 	<link rel="stylesheet" href="./assets/css/main.css?v=0.1">
 
 	<!-- Recaptcha Here -->
-	<!-- <script src="https://www.google.com/recaptcha/api.js?render=<?= $recaptcha_client_secret ?>"></script>
+	<script src="https://www.google.com/recaptcha/api.js?render=<?= $recaptcha_client_secret ?>"></script>
 	<script>
 		grecaptcha.ready(function() {
 			grecaptcha.execute('<?= $recaptcha_client_secret ?>', {
@@ -19,7 +19,7 @@
 				document.getElementById('recaptchaResponse').value = token;
 			});
 		});
-	</script> -->
+	</script>
 
 	<!-- Google Tag Manager -->
 	<script>
@@ -176,11 +176,15 @@
 								<div class="col-12 pt-2 pt-md-3">
 									<select name="service" class="form-control border-0 rounded-0" required>
 										<option value="" disabled selected>Service</option>
-										<option>Retaining wall for any purposes</option>
-										<option>Retaining wall for landscaping</option>
-										<option>Retaining walls for brick fences</option>
-										<option>Retaining walls for garden beds</option>
-										<option>Landscaping and Decking</option>
+										<option>Tile & Grout Cleaning</option>
+										<option>All Stone Floor Cleaning & Sealing</option>
+										<option>High Pressure Cleaning</option>
+										<option>Driveway Cleaning & Sealing</option>
+										<option>Grout Sealing</option>
+										<option>Stone Floor Restoration</option>
+										<option>All Hard floor surface Cleaning</option>
+										<option>All natural stone cleaning and sealing</option>
+										<option>Walls and floors cleaning</option>
 									</select>
 								</div>
 								<div class="col-12 pt-2 pt-md-3">

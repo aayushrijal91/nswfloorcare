@@ -92,7 +92,7 @@ include __DIR__ . '/header.php';
                         <div class="col-md-6 col-lg-4 px-2 py-4">
                             <div class="service-card">
                                 <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
-                                <div class="title">Tile &amp; Grout Cleaning</div>
+                                <div class="title">All Hard Floor Surface Cleaning</div>
                                 <div class="description">
                                     Cleaning tile & grout takes a combination of specialised industrial equipment and heavy
                                     duty cleaning products. By using specially developed cleaning solutions & high pressure
@@ -104,7 +104,7 @@ include __DIR__ . '/header.php';
                         <div class="col-md-6 col-lg-4 px-2 py-4">
                             <div class="service-card">
                                 <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
-                                <div class="title">Tile &amp; Grout Cleaning</div>
+                                <div class="title">All Natural Stone Cleaning and Sealing</div>
                                 <div class="description">
                                     Cleaning tile & grout takes a combination of specialised industrial equipment and heavy
                                     duty cleaning products. By using specially developed cleaning solutions & high pressure
@@ -116,7 +116,7 @@ include __DIR__ . '/header.php';
                         <div class="col-md-6 col-lg-4 px-2 py-4">
                             <div class="service-card">
                                 <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
-                                <div class="title">Tile &amp; Grout Cleaning</div>
+                                <div class="title">Walls and Floors Cleaning</div>
                                 <div class="description">
                                     Cleaning tile & grout takes a combination of specialised industrial equipment and heavy
                                     duty cleaning products. By using specially developed cleaning solutions & high pressure
