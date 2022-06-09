@@ -11,6 +11,7 @@ header {
             color: $white;
             border-radius: 0;
             line-height: 1;
+            justify-content: center;
             font-size: 1.125rem;
 
             @include media-breakpoint-down(sm) {
@@ -39,28 +40,28 @@ header {
                 color: $grey;
                 min-height: 70px;
                 background: #f3f3f3;
-    
+
                 @include media-breakpoint-up(md) {
                     padding: 23px 17px;
                 }
-    
+
                 &:focus,
                 &:active {
                     outline: none;
                     box-shadow: none;
                 }
             }
-    
+
             input::placeholder,
             select {
                 color: $grey;
                 font-size: 1rem;
-    
+
                 @include media-breakpoint-down(sm) {
                     font-size: 0.875rem;
                 }
             }
-    
+
             button {
                 min-height: 70px;
             }
@@ -80,4 +81,54 @@ header {
 
 section.services {
     padding: 64px 0;
+
+    .title {
+        padding: 31px 0 23px 45px;
+        font-family: $font-roboto;
+        color: $black;
+        font-weight: 500;
+        font-size: 1.5rem; // 24px
+        position: relative;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 1rem;
+        }
+
+        &::before {
+            position: absolute;
+            content: "";
+            background: imgUrl("ball.png");
+            height: 26px;
+            width: 26px;
+            left: 0;
+            top: 36px;
+        }
+    }
+
+    .description {
+        font-family: $font-roboto;
+        font-size: 0.875rem;
+        color: $grey;
+    }
+}
+
+section.quick-contact {
+    background: $primary imgUrl("quick-contact.png") right top;
+    background-size: contain;
+    padding: 125px 0 158px;
+
+    .btn {
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        border-radius: 0;
+        line-height: 1;
+        font-size: 1.125rem;
+
+        @include media-breakpoint-down(sm) {
+            font-size: 0.875rem;
+        }
+    }
 }
