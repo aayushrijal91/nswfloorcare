@@ -12,6 +12,16 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
 
 AOS.refresh();
 
+$('#show-more-services').on('click', () => {
+    $('.see-more-services').slideToggle();
+
+    if ($('#show-more-services').text().trim() == "See More Services") {
+        $('#show-more-services').html("See Less Services");
+    } else {
+        $('#show-more-services').html("See More Services");
+    }
+});
+
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {
         $('#return-to-top').fadeIn(300);

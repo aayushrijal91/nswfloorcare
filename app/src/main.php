@@ -4,6 +4,7 @@ include __DIR__ . '/header.php';
 ?>
 
 <section class="services">
+    <div class="curved-arrow"><?= renderImg("curved-arrow.png", "icons") ?></div>
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 col-xxl-11">
@@ -84,6 +85,53 @@ include __DIR__ . '/header.php';
                                 sealer.
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="see-more-services">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 px-2 py-4">
+                            <div class="service-card">
+                                <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
+                                <div class="title">Tile &amp; Grout Cleaning</div>
+                                <div class="description">
+                                    Cleaning tile & grout takes a combination of specialised industrial equipment and heavy
+                                    duty cleaning products. By using specially developed cleaning solutions & high pressure
+                                    van mounted cleaning equipment we are able to clean your tiles & grout to the highest
+                                    standards.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 px-2 py-4">
+                            <div class="service-card">
+                                <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
+                                <div class="title">Tile &amp; Grout Cleaning</div>
+                                <div class="description">
+                                    Cleaning tile & grout takes a combination of specialised industrial equipment and heavy
+                                    duty cleaning products. By using specially developed cleaning solutions & high pressure
+                                    van mounted cleaning equipment we are able to clean your tiles & grout to the highest
+                                    standards.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 px-2 py-4">
+                            <div class="service-card">
+                                <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
+                                <div class="title">Tile &amp; Grout Cleaning</div>
+                                <div class="description">
+                                    Cleaning tile & grout takes a combination of specialised industrial equipment and heavy
+                                    duty cleaning products. By using specially developed cleaning solutions & high pressure
+                                    van mounted cleaning equipment we are able to clean your tiles & grout to the highest
+                                    standards.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-4">
+                    <div class="col-12">
+                        <button id="show-more-services" class="btn btn-block btn-secondary rounded-0 text-white py-4 line-height-2 h10 fw-700 text-uppercase">
+                            See More Services
+                        </button>
                     </div>
                 </div>
             </div>
