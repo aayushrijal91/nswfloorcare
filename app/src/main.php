@@ -129,7 +129,7 @@ include __DIR__ . '/header.php';
                 </div>
                 <div class="row justify-content-center pt-3 pt-md-4">
                     <div class="col-12">
-                        <button id="show-more-services" class="btn btn-block btn-secondary rounded-0 text-white py-2 py-lg-4 line-height-2 h10 fw-700 text-uppercase">
+                        <button id="show-more-services" class="btn btn-block btn-secondary rounded-0 text-white py-2 py-lg-4 h10 fw-700 text-uppercase">
                             See More Services
                         </button>
                     </div>
@@ -169,7 +169,7 @@ include __DIR__ . '/header.php';
                     <div class="col-lg-5">
                         <div class="h1 fw-700 text-white letter-spacing-n04 line-height-3">No Job Too Big Or Too Small<span class="text-secondary">.</span></div>
                     </div>
-                    <div class="col-lg-4 pt-4 pt-md-5 pt-lg-0">
+                    <div class="col-lg-5 col-xxl-4 pt-4 pt-md-5 pt-lg-0">
                         <div class="text-white letter-spacing-n02 fw-500 h5 line-height-1"><span class="fw-700">At NSW Floor Care</span> we service residential, commercial and all strata.</div>
                         <div class="row no-gutters pt-3 pt-md-4">
                             <div class="col-5 col-md-4 col-lg-5 pr-2">

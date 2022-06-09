@@ -118,7 +118,7 @@
 		</div>
 		<div class="banner">
 			<div class="container-fluid">
-				<div class="row px-lg-5">
+				<div class="row px-xxl-5">
 					<div class="col-lg-8 banner-content">
 						<div class="row no-gutters align-items-end h-100 justify-content-md-center">
 							<div class="col-lg-8 pr-xxl-5">
@@ -155,7 +155,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 pl-xl-5 py-5 py-lg-3">
+					<div class="col-lg-4 pl-xxl-5 py-5 py-lg-3">
 						<div class="letter-spacing-01 text-primary h4 line-height-1 text-center">NSW Floor Care <span class="fw-700">Provides Specialised Cleaning &amp; Sealing</span></div>
 						<div class="text-center h11 py-3">Simply fill in our form &amp; we'll get back to you as soon as possible</div>
 						<form action="./src/form" method="POST">
