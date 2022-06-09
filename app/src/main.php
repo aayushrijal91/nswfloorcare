@@ -9,13 +9,13 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-xxl-11">
                 <div class="row no-gutters justify-content-between align-items-center pb-2">
-                    <div class="col-auto px-2">
+                    <div class="col-12 col-lg-auto px-2">
                         <div class="text-secondary font-helvetica fw-800 h3">We Ensure Great Results Every Time.</div>
                         <div class="h14 fw-400">With all the best and latest equipment we can ensure you will always be
                             happy with the results!</div>
                     </div>
-                    <div class="col-3 px-2">
-                        <a href="#form" class="btn btn-block btn-secondary rounded-0 text-white py-3 py-md-4 fw-700">
+                    <div class="col-12 col-lg-3 px-2 pt-4 pt-md-0">
+                        <a href="#form" class="btn btn-block btn-secondary rounded-0 text-white py-2 py-md-4 fw-700">
                             Get Started With Us Today
                         </a>
                     </div>
@@ -88,7 +88,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
                 <div class="see-more-services">
-                    <div class="row">
+                    <div class="row no-gutters">
                         <div class="col-md-6 col-lg-4 px-2 py-4">
                             <div class="service-card">
                                 <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
@@ -127,9 +127,9 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center pt-4">
+                <div class="row justify-content-center pt-3 pt-md-4">
                     <div class="col-12">
-                        <button id="show-more-services" class="btn btn-block btn-secondary rounded-0 text-white py-4 line-height-2 h10 fw-700 text-uppercase">
+                        <button id="show-more-services" class="btn btn-block btn-secondary rounded-0 text-white py-2 py-md-4 line-height-2 h10 fw-700 text-uppercase">
                             See More Services
                         </button>
                     </div>
@@ -144,15 +144,15 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-12 col-xxl-11">
                 <div class="row no-gutters justify-content-between align-items-center">
-                    <div class="col-auto h7 text-black">
+                    <div class="col-12 col-md-auto h7 text-black text-center pb-3 pb-md-0">
                         <span class="fw-700">Brands</span> We Work With
                     </div>
-                    <div class="col-auto">
+                    <div class="col-lg-auto">
                         <div class="row no-gutters align-items-center">
-                            <div class="col-auto px-4"><?= renderImg("klindex.png", "logo", "px-2") ?></div>
-                            <div class="col-auto px-4"><?= renderImg("spirit.png", "logo", "px-2") ?></div>
-                            <div class="col-auto px-4"><?= renderImg("master.png", "logo", "px-2") ?></div>
-                            <div class="col-auto px-4"><?= renderImg("whyte.png", "logo", "px-2") ?></div>
+                            <div class="col-6 col-md-auto px-4 py-2 py-md-0"><?= renderImg("klindex.png", "logo", "px-2") ?></div>
+                            <div class="col-6 col-md-auto px-4 py-2 py-md-0"><?= renderImg("spirit.png", "logo", "px-2") ?></div>
+                            <div class="col-6 col-md-auto px-4 py-2 py-md-0"><?= renderImg("master.png", "logo", "px-2") ?></div>
+                            <div class="col-6 col-md-auto px-4 py-2 py-md-0"><?= renderImg("whyte.png", "logo", "px-2") ?></div>
                         </div>
                     </div>
                 </div>
@@ -169,9 +169,9 @@ include __DIR__ . '/header.php';
                     <div class="col-lg-5">
                         <div class="h1 fw-700 text-white letter-spacing-n04 line-height-3">No Job Too Big Or Too Small<span class="text-secondary">.</span></div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 pt-4 pt-md-0">
                         <div class="text-white letter-spacing-n02 fw-500 h5 line-height-1"><span class="fw-700">At NSW Floor Care</span> we service residential, commercial and all strata.</div>
-                        <div class="row no-gutters pt-4">
+                        <div class="row no-gutters pt-3 pt-md-4">
                             <div class="col-5 pr-2">
                                 <a href="#form" class="btn btn-block btn-secondary py-3 px-md-4">
                                     Enquire Now

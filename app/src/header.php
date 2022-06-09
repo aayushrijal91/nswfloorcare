@@ -80,7 +80,7 @@
 		<div class="header-top-bar">
 			<div class="container-fluid">
 				<div class="row justify-content-end">
-					<div class="col-12 col-xxl-11 pr-5">
+					<div class="col-12 col-xxl-11 pr-lg-5">
 						<div class="row no-gutters justify-content-center justify-content-lg-between align-items-center">
 							<div class="col-auto">
 								<a href="./">
@@ -89,18 +89,18 @@
 							</div>
 							<div class="col-auto">
 								<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center">
-									<div class="col-auto letter-spacing-01 h9 px-6 text-capitalize">
+									<div class="col-auto letter-spacing-01 h9 px-lg-6 text-capitalize text-center py-4 py-md-0">
 										<span class="fw-700">With over 20 Years of Experience</span> in The industry
 									</div>
-									<div class="col-12 col-md-auto px-1">
+									<div class="col-6 col-md-auto px-1">
 										<a href="tel:<?= $phone_number ?>" class="btn btn-block border-secondary bordered text-secondary px-md-5">Call Now</a>
 									</div>
-									<div class="col-12 col-md-auto px-1">
+									<div class="col-6 col-md-auto px-1">
 										<a href="#form" class="btn btn-block btn-secondary py-3 px-md-4">
 											<div>Get <span class="fw-700">Free Quote</span></div>
 										</a>
 									</div>
-									<div class="col-12 col-md-auto px-1">
+									<div class="col-12 col-md-auto pt-2 pt-md-0 px-1">
 										<a href="https://www.facebook.com" class="btn btn-block btn-tertiary py-3 px-md-4">
 											<div><?= renderImg("facebook.png", "icons") ?></div>
 											<div class="pt-1 pl-3">Find Us On Facebook</div>
@@ -115,17 +115,17 @@
 		</div>
 		<div class="banner">
 			<div class="container-fluid">
-				<div class="row px-5">
-					<div class="col-8 banner-content">
+				<div class="row px-lg-5">
+					<div class="col-lg-8 banner-content">
 						<div class="row no-gutters align-items-end h-100">
-							<div class="col-8 pr-xxl-5">
+							<div class="col-lg-8 pr-xxl-5">
 								<div class="description">
 									<div class="text-white h10 font-helvetica fw-600">The Best Branded Products On Your Surfaces</div>
 									<div class="h2 fw-400 text-white line-height-1 py-4"><span class="fw-700">NSW Floor Care</span> Provides Specialised Cleaning &amp; Sealing</div>
 									<div class="text-white h12 font-helvetica fw-600">No job too big or too small. At NSW Floor Care we service residential, commercial and all strata.</div>
 									<div class="experience-banner">
 										<div class="row no-gutters">
-											<div class="col-8">
+											<div class="col-md-8">
 												<div class="h6 fw-700 line-height-1">With Over 20 Years Of Experience In The Industry.</div>
 												<div class="fw-500 h15 py-3">If you need advice on cleaning & sealing your old or new floors, or need a professional to do it for you, then you have come to the right place.</div>
 												<div class="row no-gutters">
@@ -147,13 +147,13 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-4">
-								<div><?= renderImg("broom.png", "lib") ?></div>
-								<!-- <div data-aos="slide-up"><?= renderImg("broom.png", "lib") ?></div> -->
+							<div class="col-md-4">
+								
+								<div data-aos="slide-up"><?= renderImg("broom.png", "lib") ?></div>
 							</div>
 						</div>
 					</div>
-					<div class="col-4 pl-xl-5 py-3">
+					<div class="col-lg-4 pl-xl-5 py-5 py-lg-3">
 						<div class="letter-spacing-01 text-primary h4 line-height-1 text-center">NSW Floor Care <span class="fw-700">Provides Specialised Cleaning &amp; Sealing</span></div>
 						<div class="text-center h11 py-3">Simply fill in our form &amp; we'll get back to you as soon as possible</div>
 						<form action="./src/form" method="POST">
