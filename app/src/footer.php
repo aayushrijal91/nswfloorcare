@@ -1,24 +1,21 @@
 <footer>
-	<div class="bg-dark">
+	<div class="section-footer-top">
 		<div class="container">
-			<div class="row justify-content-center justify-content-lg-between align-items-center py-3 py-lg-4">
+			<div class="row justify-content-center justify-content-lg-between align-items-center">
 				<div class="col-auto">
-					<div class="row no-gutters mb-3 mb-md-0 text-white justify-content-center">
-						<div class="col-12 col-md-auto text-center">Copyright <?= date('Y') ?></div>
-						<div class="col-auto px-2 px-md-4">|</div>
-						<div class="col-12 col-md-auto text-center"><?= $site ?></div>
-						<div class="col-auto px-2 px-md-4">|</div>
-						<div class="col-12 col-md-auto text-center">All Rights Reserved
+					<div class="row no-gutters text-white justify-content-center align-items-center">
+						<div class="col-auto px-2">
+							<a href="#form" class="btn btn-primary rounded-pill">Get Started</a>
 						</div>
+						<div class="col-auto px-4 fw-500 h10">Let our professional team help you</div>
 					</div>
 				</div>
 				<div class="col-auto">
-					<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
-						<div class="col-auto footer-nav-li pl-lg-5">
-							<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-								<?= renderImg("aiims.png","logo") ?>
-							</a>
+					<div class="row no-gutters text-white justify-content-center align-items-center">
+						<div class="col-auto px-2">
+							<a href="tel: <?= $phone_number ?>" class="btn btn-primary rounded-pill">Call Now</a>
 						</div>
+						<div class="col-auto px-4 fw-500 h10">Quality services with affordable prices</div>
 					</div>
 				</div>
 			</div>
@@ -26,25 +23,28 @@
 	</div>
 	<div class="section-footer-bottom">
 		<div class="container">
-			<div class="row justify-content-center justify-content-lg-between align-items-center py-3 py-lg-4">
+			<div class="row justify-content-center justify-content-lg-between align-items-center">
 				<div class="col-auto">
-					<div class="row no-gutters mb-3 mb-md-0">
-						<div class="col mr-1">a</div>
-						<div class="col mr-1">a</div>
+					<div class="row no-gutters mb-3 mb-md-0 justify-content-center">
+						<div class="col-12 col-md-auto text-center">Copyright <?= date('Y') ?></div>
+						<div class="col-auto px-2 px-md-4 px-xl-6 text-primary">|</div>
+						<div class="col-12 col-md-auto text-center"><?= $site ?></div>
+						<div class="col-auto px-2 px-md-4 px-xl-6 text-primary">|</div>
+						<div class="col-12 col-md-auto text-center">All Rights Reserved
+						</div>
 					</div>
 				</div>
 				<div class="col-auto">
 					<div class="row no-gutters justify-content-center justify-content-lg-end align-items-center">
-						<div class="col-auto">Copyright 2021</div>
-						<div class="col-auto px-2 px-md-4">|</div>
-						<div class="col-auto"><?= $site ?></div>
-						<div class="col-auto px-2 px-md-4">|</div>
-						<div class="col-auto">All Rights Reserved</div>
-						<div class="col-auto pl-lg-5">
+						<div class="col-auto">Terms &amp; Conditions</div>
+						<div class="col-auto px-2 px-md-4 px-xl-6 text-primary">|</div>
+						<div class="col-auto">Privacy Policies</div>
+						<div class="col-auto pl-lg-5 pl-xl-7"><?= renderImg("payment-methods.png","icons") ?></div>
+						<!-- <div class="col-auto pl-lg-5">
 							<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-							<?= renderImg("aiims1.png","logo") ?>
+								<?= renderImg("aiims1.png", "logo") ?>
 							</a>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

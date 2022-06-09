@@ -112,6 +112,10 @@ section.services {
     }
 }
 
+section.brands {
+    padding: 28px 0;
+}
+
 section.quick-contact {
     background: $primary imgUrl("quick-contact.png") right top;
     background-size: contain;
@@ -130,5 +134,31 @@ section.quick-contact {
         @include media-breakpoint-down(sm) {
             font-size: 0.875rem;
         }
+    }
+}
+
+footer {
+
+    .section-footer-top {
+        background: $tertiary;
+        padding: 44px 0;
+
+        .btn {
+            font-family: $font-roboto;
+            line-height: 1;
+            font-size: 1.125rem;
+            font-weight: 500;
+            padding: 22.5px 49px;
+
+            @include media-breakpoint-down(sm) {
+                font-size: 0.875rem;
+            }
+        }
+    }
+
+    .section-footer-bottom {
+        padding: 40px 0;
+        font-size: 0.875rem;
+        color: #555555;
     }
 }
