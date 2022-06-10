@@ -91,7 +91,7 @@ include __DIR__ . '/header.php';
                     <div class="row no-gutters">
                         <div class="col-md-6 col-lg-4 px-2 py-4">
                             <div class="service-card">
-                                <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
+                                <?= renderImg("all-hard-floor-surface-cleaning.jpg", "lib", "w-100") ?>
                                 <div class="title">All Hard Floor Surface Cleaning</div>
                                 <div class="description">
                                     Cleaning tile & grout takes a combination of specialised industrial equipment and heavy
@@ -103,19 +103,15 @@ include __DIR__ . '/header.php';
                         </div>
                         <div class="col-md-6 col-lg-4 px-2 py-4">
                             <div class="service-card">
-                                <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
+                                <?= renderImg("all-natural-stone-cleaning.jpg", "lib", "w-100") ?>
                                 <div class="title">All Natural Stone Cleaning and Sealing</div>
                                 <div class="description">
-                                    Cleaning tile & grout takes a combination of specialised industrial equipment and heavy
-                                    duty cleaning products. By using specially developed cleaning solutions & high pressure
-                                    van mounted cleaning equipment we are able to clean your tiles & grout to the highest
-                                    standards.
-                                </div>
+                                    We clean and seal various types of stone and other materials both internal, external, walls and floors. Including - Granite, Marble, Travertine, Sandstone, Limestone, Slate, Cultured Stone, Brick, Pavers, Concrete, Tile &amp; Grout </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 px-2 py-4">
                             <div class="service-card">
-                                <?= renderImg("tile-grout.jpg", "lib", "w-100") ?>
+                                <?= renderImg("walls-floor-cleaning.jpg", "lib", "w-100") ?>
                                 <div class="title">Walls and Floors Cleaning</div>
                                 <div class="description">
                                     Cleaning tile & grout takes a combination of specialised industrial equipment and heavy

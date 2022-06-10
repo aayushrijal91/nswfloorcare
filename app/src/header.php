@@ -104,7 +104,7 @@
 										</a>
 									</div>
 									<div class="col-12 col-md-auto pt-2 pt-md-0 px-1">
-										<a href="https://www.facebook.com" class="btn btn-block btn-tertiary py-3 px-md-4">
+										<a href="https://www.facebook.com/NSW-Floor-Care-105985605474326/" target="_blank" class="btn btn-block btn-tertiary py-3 px-md-4">
 											<div><?= renderImg("facebook.png", "icons") ?></div>
 											<div class="pt-1 pl-3">Find Us On Facebook</div>
 										</a>
@@ -116,7 +116,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="banner">
+		<div class="banner" id="form">
 			<div class="container-fluid">
 				<div class="row px-xxl-5 justify-content-lg-center">
 					<div class="col-xl-8 banner-content">
