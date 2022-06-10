@@ -96,7 +96,8 @@
 										<span class="fw-700">With over 20 Years of Experience</span> in The industry
 									</div>
 									<div class="col-6 col-md-auto px-1">
-										<a href="tel:<?= $phone_number ?>" class="btn btn-block border-secondary bordered text-secondary px-md-5">Call Now</a>
+										<a href="tel:<?= $phone_number ?>" class="btn btn-block border-secondary bordered text-secondary px-md-5 d-none d-md-flex">Call Now</a>
+										<a href="tel:<?= $phone_number ?>" class="btn btn-block border-secondary bordered text-secondary px-md-5 d-md-none"><?= $phone_number ?></a>
 									</div>
 									<div class="col-6 col-md-auto px-1">
 										<a href="#form" class="btn btn-block btn-secondary py-3 px-md-4">

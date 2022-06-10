@@ -2,7 +2,7 @@
 include __DIR__ . '/env.php';
 
 $site = "NSW Floor Care";
-$phone_number = "0432 406 340";
+$phone_number = "(02) 9056 8170";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
 $no_reply_email = 'no-reply@icfitouts.com.au';
